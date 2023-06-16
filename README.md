@@ -6,6 +6,8 @@ Welcome to my portfolio page! Here, you'll find a showcase of my work as a full-
 
 URL of Deployment- https://wesbaker0.github.io/Portfolio-Page/
 
+![2023-06-16](https://github.com/WesBaker0/React-Portfolio-Page/assets/131714206/f86db425-dc12-41c0-8515-915abb0c372e)
+
 ## About
 
 As an aspiring full-stack web developer, my aim is to create user-friendly applications and websites that are not only easily accessible, but enjoyable to use. I've always been a tech enthusiast and knew early on that I wanted to work in a field where I could both harness this interest and help people. I believe that building and maintaining websites is the perfect intersection of these two passions.
