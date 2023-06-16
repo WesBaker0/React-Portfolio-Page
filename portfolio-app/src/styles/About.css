@@ -1,0 +1,130 @@
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+}
+
+.about-container {
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-top: 8%;
+    font-weight: 700;
+}
+
+.about-image {
+    display: flex;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    padding-bottom: 2%;
+}
+
+.about-body {
+    display: flex;
+    text-align: center;
+    margin-top: 8%;
+    letter-spacing: 1px;
+    color: rgb(46, 177, 253);
+}
+
+.toolset-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+body.light .toolset-container {
+    background-color: rgb(20, 44, 65);
+}
+
+.toolset-title {
+    display: flex;
+    font-size: 21px;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+
+.toolset-text {
+    color: rgb(46, 177, 253);
+    margin-bottom: 4px;
+    border-bottom: 3px solid;
+}
+
+.html-icon {
+    color: #e34f26;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.html-icon:hover {
+    color: #b3381c;
+    transform: scale(1.2);
+}
+
+.css-icon {
+    color: #1572B6;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.css-icon:hover {
+    color: #104d80;
+    transform: scale(1.2);
+}
+
+.js-icon {
+    color: #f7df1e;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.js-icon:hover {
+    color: #bfa913;
+    transform: scale(1.2);
+}
+
+.nodeJS-icon {
+    color: #3C873A;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nodeJS-icon:hover {
+    color: #2b5a27;
+    transform: scale(1.2);
+}
+
+.react-icon {
+    color: #61DAFB;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.react-icon:hover {
+    color: #49a8c6;
+    transform: scale(1.2);
+}
+
+.mongo-icon {
+    color: #4DB33D;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.mongo-icon:hover {
+    color: #39802c;
+    transform: scale(1.2);
+}

@@ -1,0 +1,104 @@
+/* Responsive layout - makes the two columns stack on top of each other */
+@media (max-width: 600px) {
+    .project-container {
+        flex-direction: column;
+    }
+}
+
+/* Project's Intro Container */
+.project-intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+    border-bottom: 5px solid;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    padding-bottom: 1%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Project's Row */
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+}
+
+/* Columns */
+.project-1,
+.project-2,
+.project-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.project-1 a,
+.project-2 a,
+.project-3 a {
+    display: flex;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+/* Project Images */
+.project1,
+.project2,
+.project3 {
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    opacity: 0.3;
+    border: 8px solid rgb(46, 177, 253);
+    animation: pulse 5s infinite;
+}
+
+/* Hover effect */
+.project1:hover,
+.project2:hover,
+.project3:hover {
+    border-color: white;
+    transform: scale(1.03);
+    transition: all 0.3s ease-out;
+    opacity: 100%;
+    animation: none !important;
+}
+
+.project-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 4%;
+    padding: 10px;
+    width: 800px;
+}

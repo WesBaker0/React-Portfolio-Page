@@ -1,0 +1,47 @@
+.nav-bar {
+    padding-bottom: .07%;
+}
+
+.nav-name {
+    display: flex;
+    margin-left: 2%;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(46, 177, 253);;
+}
+
+.nav-container {
+    border-bottom: 3px solid rgb(40, 87, 128);
+    padding-bottom: 1.2px;
+}
+
+.nav-tabs {
+    display: flex;
+    font-weight: 700;
+    border-bottom: none !important;
+}
+
+.nav-item .nav-link {
+    color: rgb(46, 177, 253) !important;
+}
+
+.nav-item .nav-link:hover {
+    border: 2px solid rgb(46, 177, 253) !important; 
+}
+
+.nav-item .nav-link:active, .nav-item .nav-link.active {
+    opacity: 1;
+    background-color: rgb(46, 177, 253) !important;
+    color: black !important;
+    border: 2px solid rgb(46, 177, 253) !important; 
+}
+
+body.dark .nav-item .nav-link:active, .nav-item .nav-link.active {
+color: white !important;
+}
+
+.theme-switcher {
+   margin-left: 5%;
+   margin-top: 3%;
+   margin-bottom: 2%;
+}

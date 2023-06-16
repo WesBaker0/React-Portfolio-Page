@@ -1,0 +1,72 @@
+.contact-header {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4% 0;
+    margin-bottom: 3%;
+    color: white;
+}
+
+body.light .contact-header {
+    color: rgb(40, 87, 128);
+}
+
+.justify-content-md-center {
+    border: 6px solid !important;
+    border-color: rgb(46, 177, 253);
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3% 10% 8%;
+    width: auto;
+    color: rgb(46, 177, 253);
+    font-size: 18px;
+    font-weight: 520;
+}
+
+body.light .justify-content-md-center {
+    border-color: rgb(46, 177, 253) !important;
+    color: rgb(40, 87, 128) !important;
+}
+
+.contact-input {
+    border-radius: 5px;
+    border: 3px solid rgb(46, 177, 253) !important;
+    background: transparent !important;
+    margin-bottom: 7%;
+    color: white !important;
+    font-weight: 500 !important;
+    letter-spacing: .2 px;
+}
+
+body.light .contact-input {
+    color: rgb(40, 87, 128) !important;
+}
+
+.contact-input::placeholder {
+    color: white !important;
+    font-size: 1em;
+}
+
+body.light .contact-input::placeholder {
+    color: rgb(40, 87, 128) !important;
+}
+
+.custom-btn .btn {
+    position: relative;
+    background-color: rgb(46, 177, 253);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.custom-btn .btn:hover {
+    background-color: white;
+    color: rgb(46, 177, 253);
+    border: 2px solid rgb(46, 177, 253);
+}
