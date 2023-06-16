@@ -18,7 +18,7 @@ This portfolio page represents my first attempt at creating a website from scrat
 
 My first project was a character power comparison site called "CharTest" - you can find this in the Projects section of my portfolio.
 
-## Works
+## Projects
 
 Below is a showcase of some of my recent works:
 
