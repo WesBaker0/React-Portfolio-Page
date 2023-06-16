@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Home.css';
-import homeClipart from '../../images/home-clipart.png';
+import homeClipart from '../../images/Home.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faTwitch } from '@fortawesome/free-brands-svg-icons';
